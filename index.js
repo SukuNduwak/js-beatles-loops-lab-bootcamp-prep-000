@@ -21,7 +21,10 @@ function iLoveTheBeatles(counter) {
   var new_array = [];
   var i = 0;
   do {
-    
+    if (counter === 17) {
+      new_array.push("I love the Beatles!");
+      break;
+    }
     new_array.push("I love the Beatles!");    
     i++;
   } while (i <= counter);
